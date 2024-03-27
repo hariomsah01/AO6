@@ -1,0 +1,104 @@
+
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+/* the styles for the header */
+header img {
+	float: left;
+}
+
+/* the styles for the main content */
+main {
+	clear: left;
+}
+main h1 {
+	font-size: 150%;
+}
+main h2 {
+	color: var(--global-color-1);
+	font-size: 130%;
+}
+main h3 {
+	font-size: 105%;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Links styles */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* New style rules for header */
+header h2 {
+    font-size: 170%;
+    color: #800000;
+    text-indent: 30px;
+}
+
+header h3 {
+    font-size: 130%;
+    font-style: italic;
+    text-indent: 30px;
+}
+
+/* Style rule for italicizing links on focus or hover */
+a:hover,
+a:focus {
+    font-style: italic;
+}
+
+/* Style rule to center the p tag in the footer */
+footer p {
+    text-align: center;
+}
+
+/* Style rule for text shadow on 75th anniversary heading */
+.shadow {
+    text-shadow: 2px 2px #800000;
+}
+
+/* Custom property */
+:root {
+    --global-color-1: #800000;
+}
+
+/* Styles for specific elements */
+ul {
+    list-style: none;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    header img {
+        float: none;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
